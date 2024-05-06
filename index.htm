@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azerbaijan Architecture</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="text-center animate__animated animate__fadeIn">
+        <div class="container">
+            <h1 style="font-family: 'Pacifico', cursive; font-size: 3em;">Azerbaijan Architecture</h1>
+            <p class="lead">Explore the rich architectural heritage of Azerbaijan</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Azerbaijan Architecture</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about" onclick="scrollToSection('#about')">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" onclick="scrollToSection('#gallery')">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tours" onclick="scrollToSection('#tours')">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#map" onclick="scrollToSection('#map')">Map</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" onclick="scrollToSection('#contact')">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="animate__animated animate__fadeIn">
+        <div class="container">
+            <h2 class="text-center mb-4">About Azerbaijan Architecture</h2>
+            <p class="lead text-justify">Azerbaijan's architecture is a reflection of its rich cultural history, blending influences from various civilizations over centuries. From the ancient wonders of the Old City in Baku to the modern skyscrapers that adorn the skyline, Azerbaijan offers a diverse array of architectural marvels. Explore the intricate designs and timeless beauty of Azerbaijani architecture.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="image-grid">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="container-xxl, container">
+          <div class="row gy-4">
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image1.jpg" class="img-fluid" alt="Bibiheybat Mosque" data-caption="Bibiheybat Mosque">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image2.jpg" class="img-fluid" alt="LITERATURE MUSEUM NAMED AFTER NIZAMI" data-caption="Literature Museum Named After Nizami">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image3.jpg" class="img-fluid" alt="Multani Caravanserai" data-caption="Multani Caravanserai">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image4.jpg" class="img-fluid" alt="Ismailiyye Palace" data-caption="Ismailiyye Palace">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image5.jpg" class="img-fluid" alt="Flame Towers" data-caption="Flame Towers">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image6.jpg" class="img-fluid" alt="International Mugham Center" data-caption="International Mugham Center">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image7.jpg" class="img-fluid" alt="Heydar Aliyev Center" data-caption="Heydar Aliyev Center">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image8.jpg" class="img-fluid" alt="Carpet Museum" data-caption="Carpet Museum">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <figure>
+                <a class="d-block" href="">
+                  <img width="1920" height="1280" src="./images/gallery/image9.jpg" class="img-fluid" alt="Baku Maiden Tower" data-caption="Baku Maiden Tower">
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div class="modal lightbox-modal" id="lightbox-modal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <div class="container-fluid p-0">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <section id="tours" class="bg-light animate__animated animate__fadeIn">
+        <div class="container">
+            <h2 class="text-center mb-4">Tours to Azerbaijan Architecture</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <a href="https://iticket.az/en/events/tourism/ateshgah-temple-state-historical-architectural-reserve" class="card-link">
+                        <img src="./images/tours/atesgah_mebedi.png" class="card-img-top" alt="Event 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ateshgah Temple</h5>
+                            <p class="card-text">Ateshgah Temple – The temple of fire worshippers Ateshgah is located at the Apsheron peninsula ...</p>
+                            <p class="card-text"><small class="text-muted">Date: May 6, 2024</small></p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="card">
+                    <a href="https://iticket.az/en/events/tourism/sheki-khans-palace" class="card-link">
+                        <img src="./images/tours/sekikhan_sarayi.png" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheki Khans' Palace</h5>
+                        <p class="card-text">Sheki Khan Palace - is a world-famous historical and architectural monument located in the territory ...</p>
+                        <p class="card-text"><small class="text-muted">Date: May 6, 2024</small></p>
+                    </div>
+                    </a>
+                    
+                </div>
+                <div class="card">
+                    <a href="https://iticket.az/en/events/tourism/the-church-of-kish" class="card-link" >
+                        <img src="./images/tours/kish_alban_mebedi.png" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">The Church of Kish</h5>
+                        <p class="card-text">The Church of Kish also known by different sources as Church of Saint Elishe or Holy Mother of God ...</p>
+                        <p class="card-text"><small class="text-muted">Date: May 6, 2024</small></p>
+                    </div>
+                    </a>
+                    
+                </div>
+                <div class="card">
+                    <a href="https://iticket.az/en/events/tourism/sheki-khan-mosque-exhibition-hall" class="card-link">
+                        <img src="./images/tours/khan_mescidi.png" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheki Khan Mosque</h5>
+                        <p class="card-text">The Khan Mosque, constructed in 1769/70 (1183 Hijri) by Sheki Khan Muhammad Huseyn Khan, holds ...</p>
+                        <p class="card-text"><small class="text-muted">Date: May 6, 2024</small></p>
+                    </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map" class="animate__animated animate__fadeIn">
+        <div class="container">
+            <h2 class="text-center mb-4">Explore Azerbaijan Architecture - Interactive Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47782.49593914279!2d49.89147640960107!3d40.365312394865376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40308ed54e491405%3A0x2f22fd2a639fac47!2sIcherisheher%20%28Old%20City%29!5e0!3m2!1sen!2suk!4v1646879337922!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light animate__animated animate__fadeIn">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center animate__animated animate__fadeIn">
+        <p>&copy; 2024 Azerbaijan Architecture. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Navbar'dan seçilen bağlantıya animasyonlu geçiş
+        function scrollToSection(sectionId) {
+            $('html, body').animate({
+                scrollTop: $(sectionId).offset().top - 56 // Navbar yüksekliği kadar ek boşluk bırak
+            }, 800);
+        }
+    </script>
+</body>
+
+</html>
