@@ -206,3 +206,14 @@ footer {
 #contact form button {
   width: 100%;
 }
+
+.d-block {
+  height: 250px;
+}
+
+.d-block img {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
